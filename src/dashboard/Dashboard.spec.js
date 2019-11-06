@@ -16,7 +16,6 @@ it('Renders dashboard without crashing', () => {
     ReactDOM.render(<Dashboard />, div)    
 })
 
-
 it('Default state of Unlocked, Open, Lock Gate, Close Gate', () => {
     const { getByText } = rtl.render(<Dashboard />);
 
